@@ -26,7 +26,6 @@ class Login extends CI_Controller {
 		if($access['acesso']) {
 
 			$userdata = array('nome' =>$this->user);
-
 			session_start();
 			$_SESSION = $access;
 		}
